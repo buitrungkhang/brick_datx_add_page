@@ -1,0 +1,14 @@
+name: datx_add_page
+description: DatX add page brick
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Add new page with bloc
+    default: page
+    prompt: Enter the page(bloc) name
