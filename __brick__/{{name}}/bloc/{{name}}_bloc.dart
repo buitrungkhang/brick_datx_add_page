@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:freezed/freezed.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-part '{{name}}.event.dart';
-part '{{name}}.state.dart';
+part '{{name}}_event.dart';
+part '{{name}}_state.dart';
 
 @injectable
 class {{name.pascalCase()}}Bloc extends Bloc<{{name.pascalCase()}}Event, {{name.pascalCase()}}State> {
